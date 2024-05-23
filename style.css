@@ -1,0 +1,30 @@
+i.fa-solid.fa-heart.full.heart {
+    color: transparent;
+    background: linear-gradient(193.33deg, #9356dc -11.44%, #ff79da 123.93%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity:0;
+    transition: all 2s ease-in-out;
+}
+i.fa-regular.fa-heart.heart {
+    opacity: 1;
+    transition: all 2s ease-in-out;
+}
+.heart-component {
+    position:relative
+}
+
+.heart-component:hover i.fa-solid.fa-heart.full.heart {
+    opacity:1;
+    transition: all 2s ease-in-out;
+}
+
+.heart-component:hover i.fa-regular.fa-heart.heart {
+    opacity:0;
+    transition: all 2s ease-in-out;
+}
+
+
