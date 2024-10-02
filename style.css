@@ -8,10 +8,12 @@ i.fa-solid.fa-heart.full.heart {
     top: 0;
     opacity:0;
     transition: all 2s ease-in-out;
+    transform: scale(1);
 }
 i.fa-regular.fa-heart.heart {
     opacity: 1;
     transition: all 2s ease-in-out;
+    transform: scale(1);
 }
 .heart-component {
     position:relative
@@ -20,11 +22,11 @@ i.fa-regular.fa-heart.heart {
 .heart-component:hover i.fa-solid.fa-heart.full.heart {
     opacity:1;
     transition: all 2s ease-in-out;
+    transform: scale(1.2);
 }
 
 .heart-component:hover i.fa-regular.fa-heart.heart {
     opacity:0;
     transition: all 2s ease-in-out;
+    transform: scale(0.8);
 }
-
-
